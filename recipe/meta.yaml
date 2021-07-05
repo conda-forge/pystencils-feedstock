@@ -1,5 +1,5 @@
 {% set name = "pystencils" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 
 package:
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pystencils-{{ version }}.tar.gz
-  sha256: 2d484a5df3279378cc5545227ca41fd8fba80fb8f8aa4a8fafc161521c47603f
+  sha256: 360bfdfd4eb1bab01a615e1eb19b077aa90546a08fea8e67956dc17f9f7d5c39
 
 build:
   number: 0
-  skip: true   # [py2k]
+  skip: true  # [py2k]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -42,7 +42,7 @@ about:
   license: AGPL-3.0-or-later
   license_family: GPL
   license_file: COPYING.txt
-  summary: 'Run blazingly fast stencil codes on numpy arrays.'
+  summary: Run blazingly fast stencil codes on numpy arrays.
   description: |
     pystencils uses sympy to define stencil operations, that can be
     executed on numpy arrays. Exploiting the stencil structure makes 
