@@ -1,5 +1,5 @@
 {% set name = "pystencils" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pystencils-{{ version }}.tar.gz
-  sha256: e2e62ca6eef46f649604c38d19cb519134ca15238eee25e1d5a7c257080a5984
+  sha256: 446ef46b46f2ef0e7391d488928c73f0973958b7ed342dde3983e1c35defe840
 
 build:
-  number: 1
+  number: 0
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . -vv
 
