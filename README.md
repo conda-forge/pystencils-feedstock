@@ -1,11 +1,11 @@
-About pystencils
-================
+About pystencils-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pystencils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://i10git.cs.fau.de/pycodegen/pystencils/
 
 Package license: AGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pystencils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Run blazingly fast stencil codes on numpy arrays.
 
