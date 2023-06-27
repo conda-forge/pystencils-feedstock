@@ -21,11 +21,13 @@ requirements:
   host:
     - pip
     - python
+    - cython
   run:
     - appdirs
     - joblib
     - numpy >=1.8.0
     - python
+    - cython
     - sympy <=1.11.1,>=1.6
 
 test:
