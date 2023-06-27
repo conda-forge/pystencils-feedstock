@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pystencils-{{ version }}.tar.gz
+  url: https://github.com/mabau/pystencils/archive/refs/tags/release/{{ version }}.tar.gz
   sha256: e425ce3dc71ced6c045cab32a55947ef0a1cded6c6d071a55bd79555a1139cd9
 
 build:
