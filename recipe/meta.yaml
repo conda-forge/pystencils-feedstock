@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/mabau/pystencils/archive/refs/tags/release/{{ version }}.tar.gz
-  sha256: 8b00694d1e3f6726a32d917fc856c40ce86c739d368e10875669314d8686193a
+  sha256: b77c95d0069e98345b0b233071d6d2419452076820e2b12bbe0d243aba89a3c9
 
 build:
   number: 3
