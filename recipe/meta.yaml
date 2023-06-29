@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/mabau/pystencils/archive/refs/tags/release/{{ version }}.tar.gz
+  url: https://github.com/mabau/pystencils/archive/release/{{ version }}.tar.gz
   sha256: b77c95d0069e98345b0b233071d6d2419452076820e2b12bbe0d243aba89a3c9
 
 build:
-  number: 3
+  number: 4
   skip: true  # [py<38]
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -27,7 +27,6 @@ requirements:
     - joblib
     - numpy >=1.8.0
     - python
-    - cython
     - sympy <=1.11.1,>=1.6
 
 test:
