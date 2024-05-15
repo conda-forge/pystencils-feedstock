@@ -1,5 +1,5 @@
 {% set name = "pystencils" %}
-{% set version = "1.3.3" %}
+{% set version = "1.3.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/mabau/pystencils/archive/release/{{ version }}.tar.gz
-  sha256: ebc538c645cc0971461f5ff30bbeb3b11b6990490a3eed4cbf17b83de6933580
+  sha256: 8e01e83e0fe75a480712c216184bcaf7b1870efbbb5a7dfc40a5e9e43e982358
 
 build:
   number: 0
@@ -18,6 +18,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - pip
     - python
