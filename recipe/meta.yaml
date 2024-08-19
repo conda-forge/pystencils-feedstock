@@ -23,6 +23,7 @@ requirements:
     - pip
     - python
     - cython
+    - versioneer
   run:
     - appdirs
     - joblib
