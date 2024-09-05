@@ -22,6 +22,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
     - cython
     - versioneer
   run:
